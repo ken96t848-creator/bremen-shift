@@ -686,6 +686,10 @@ function renderAdminView() {
             </div>
         `).join('');
     }
+
+    // Render Presets
+    renderAdminPresets();
+    initPresetAdder();
 }
 
 // Modal Logic
