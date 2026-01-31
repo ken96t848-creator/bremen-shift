@@ -192,6 +192,21 @@
                 </div>
 
                 <div class="admin-section">
+                    <div class="section-header">
+                        <h3 class="admin-subtitle">時間プリセット設定</h3>
+                        <div class="preset-add-group">
+                            <select id="new-preset-in" class="form-input micro"></select>
+                            <span>〜</span>
+                            <select id="new-preset-out" class="form-input micro"></select>
+                            <button class="add-btn micro" id="add-preset-btn">+ 追加</button>
+                        </div>
+                    </div>
+                    <div class="preset-list" id="admin-preset-list">
+                        <!-- Preset items will be inserted here -->
+                    </div>
+                </div>
+
+                <div class="admin-section">
                     <h3 class="admin-subtitle">データ管理</h3>
                     <div class="data-manage-container">
                         <div class="data-stats">
@@ -223,21 +238,6 @@
                         </div>
                         <div id="sync-status" class="sync-status"></div>
                         <p class="sync-note">※受信すると現在のデータは上書きされます</p>
-                    </div>
-                </div>
-
-                <div class="admin-section">
-                    <div class="section-header">
-                        <h3 class="admin-subtitle">時間プリセット設定</h3>
-                        <div class="preset-add-group">
-                            <select id="new-preset-in" class="form-input micro"></select>
-                            <span>〜</span>
-                            <select id="new-preset-out" class="form-input micro"></select>
-                            <button class="add-btn micro" id="add-preset-btn">+ 追加</button>
-                        </div>
-                    </div>
-                    <div class="preset-list" id="admin-preset-list">
-                        <!-- Preset items will be inserted here -->
                     </div>
                 </div>
             </section>
